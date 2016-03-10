@@ -8,7 +8,7 @@
         <!--Details-->
         <scene sceneID="YYu-3D-qGr">
             <objects>
-                <viewController title="Details" id="Xqi-uP-8Nf" customClass="DetailsViewController" customModule="Practicum_2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Details" id="Xqi-uP-8Nf" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oMd-fm-NWb"/>
                         <viewControllerLayoutGuide type="bottom" id="77w-78-Az9"/>
@@ -24,6 +24,7 @@
                                 <rect key="frame" x="257" y="364" width="86" height="30"/>
                                 <state key="normal" title="More Details"/>
                                 <connections>
+                                    <action selector="btnMoreDetails:" destination="Xqi-uP-8Nf" eventType="touchUpInside" id="dky-rI-6RY"/>
                                     <segue destination="caQ-8U-9du" kind="presentation" id="dGO-Hm-0eS"/>
                                 </connections>
                             </button>
@@ -99,10 +100,10 @@
             </objects>
             <point key="canvasLocation" x="2095" y="-17"/>
         </scene>
-        <!--Easter Egg View Controller-->
+        <!--View Controller-->
         <scene sceneID="85v-Q5-HiY">
             <objects>
-                <viewController id="SA2-uL-EBX" customClass="EasterEggViewController" customModule="Practicum_2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SA2-uL-EBX" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZE7-ag-VNH"/>
                         <viewControllerLayoutGuide type="bottom" id="ycs-uL-x7x"/>
@@ -148,7 +149,7 @@
         <!--General-->
         <scene sceneID="erO-Nx-sAH">
             <objects>
-                <viewController title="General" id="hZB-LX-LvG" customClass="GeneralViewController" customModule="Practicum_2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="General" id="hZB-LX-LvG" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5Rf-Ng-jDA"/>
                         <viewControllerLayoutGuide type="bottom" id="H37-WH-CQF"/>
@@ -175,7 +176,7 @@
         <!--About-->
         <scene sceneID="6RB-G5-hml">
             <objects>
-                <navigationController title="About" automaticallyAdjustsScrollViewInsets="NO" id="Y1K-dw-0e1" customClass="About" sceneMemberID="viewController">
+                <navigationController title="About" automaticallyAdjustsScrollViewInsets="NO" id="Y1K-dw-0e1" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="About" id="Pm7-Sm-ScY"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9im-Jw-vEQ">

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wfm-7D-Hwe">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Details View Controller-->
+        <scene sceneID="XCK-1D-iKe">
+            <objects>
+                <viewController id="bmb-p6-DnX" customClass="DetailsViewController" customModule="AnyApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zBX-7u-nOe"/>
+                        <viewControllerLayoutGuide type="bottom" id="iFz-3W-g8o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g1d-FT-GKP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6N2-XV-lYo">
+                                <rect key="frame" x="258" y="343" width="86" height="30"/>
+                                <state key="normal" title="More Details"/>
+                                <connections>
+                                    <segue destination="m4W-4B-9wS" kind="presentation" id="Vwz-TW-p1w"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="l19-u6-cqO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VbC-pr-BtO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1659" y="1065"/>
+        </scene>
+        <!--More Details View Controller-->
+        <scene sceneID="fbY-RN-dhf">
+            <objects>
+                <viewController id="m4W-4B-9wS" customClass="MoreDetailsViewController" customModule="AnyApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7I1-EL-6OD"/>
+                        <viewControllerLayoutGuide type="bottom" id="7vr-Fa-P6B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="M6N-8f-tHR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dit was dan echt alle info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxb-Ra-mfG">
+                                <rect key="frame" x="130" y="289" width="191" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bNf-CB-XIu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JPD-FY-4Hz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2536" y="1065"/>
+        </scene>
+        <!--General-->
+        <scene sceneID="SWk-dk-pA4">
+            <objects>
+                <viewController id="cx4-Ww-1yD" customClass="GeneralViewController" customModule="AnyApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zto-xD-278"/>
+                        <viewControllerLayoutGuide type="bottom" id="LWM-SL-hBy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kVx-IC-mc7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dit is echt geweldig" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2V-nd-NLK">
+                                <rect key="frame" x="223" y="289" width="154" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="General" id="6AT-W1-hbX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pia-b8-wA8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="847" y="-351"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="F3i-dB-qh9">
+            <objects>
+                <viewController title="About" id="sj1-2z-SrF" customClass="AboutViewController" customModule="AnyApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2F1-60-SwY"/>
+                        <viewControllerLayoutGuide type="bottom" id="g82-LR-hj5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c0h-t3-Nck">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ucu-CK-m3o">
+                                <rect key="frame" x="263" y="197" width="74" height="30"/>
+                                <state key="normal" title="Easter Egg"/>
+                                <connections>
+                                    <action selector="showEasterEgg:" destination="sj1-2z-SrF" eventType="touchUpInside" id="ISB-W0-wfN"/>
+                                    <segue destination="l7R-DI-YWm" kind="presentation" id="ZYz-U5-kUz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7T-wA-lSW">
+                                <rect key="frame" x="248" y="242" width="104" height="30"/>
+                                <state key="normal" title="Show TextField"/>
+                                <connections>
+                                    <action selector="showTextField:" destination="sj1-2z-SrF" eventType="touchUpInside" id="WPB-je-pxg"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gEm-3O-iSq">
+                                <rect key="frame" x="252" y="292" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About" id="ail-03-UQn"/>
+                    <connections>
+                        <outlet property="btnEasterEgg" destination="ucu-CK-m3o" id="2EN-hr-bgV"/>
+                        <outlet property="btnShowTextField" destination="p7T-wA-lSW" id="b2M-lj-ewd"/>
+                        <outlet property="tfTextField" destination="gEm-3O-iSq" id="NLh-vE-YHg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cyk-cR-gII" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="847" y="344"/>
+        </scene>
+        <!--Easter Egg View Controller-->
+        <scene sceneID="SwU-H9-CRc">
+            <objects>
+                <viewController id="l7R-DI-YWm" customClass="EasterEggViewController" customModule="AnyApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LCn-ca-w5N"/>
+                        <viewControllerLayoutGuide type="bottom" id="kFG-DZ-ZC5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LSP-pY-aDv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1CX-ri-OZH">
+                                <rect key="frame" x="281" y="285" width="39" height="30"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="closeEasterEgg" destination="l7R-DI-YWm" eventType="touchUpInside" id="D7g-2S-tPy"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EasterEgg.png" translatesAutoresizingMaskIntoConstraints="NO" id="UUf-Z8-M7O">
+                                <rect key="frame" x="163" y="135" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnCloseEasterEgg" destination="1CX-ri-OZH" id="Cs0-nH-3wY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ysP-hP-n7V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1659" y="344"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="u93-WE-VO0">
+            <objects>
+                <tabBarController id="wfm-7D-Hwe" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="eeR-9c-jKK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="cx4-Ww-1yD" kind="relationship" relationship="viewControllers" id="ZoU-Ss-P00"/>
+                        <segue destination="Aqp-KJ-UIx" kind="relationship" relationship="viewControllers" id="KrU-Fu-mnu"/>
+                        <segue destination="sj1-2z-SrF" kind="relationship" relationship="viewControllers" id="IDd-kO-Pak"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zpU-t8-HSj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="477"/>
+        </scene>
+        <!--Details-->
+        <scene sceneID="qHS-13-adB">
+            <objects>
+                <navigationController title="Details" automaticallyAdjustsScrollViewInsets="NO" id="Aqp-KJ-UIx" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Details" id="GXL-Ho-4dh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IhS-m8-qNE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bmb-p6-DnX" kind="relationship" relationship="rootViewController" id="k7B-vC-Hpz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kcF-cw-YAn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="847" y="1065"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="EasterEgg.png" width="512" height="512"/>
+    </resources>
+</document>

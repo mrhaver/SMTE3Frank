@@ -16,11 +16,8 @@
 		F5798A151C89C5A80032A3F7 /* Practicum_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5798A141C89C5A80032A3F7 /* Practicum_2UITests.swift */; };
 		F5A133C41C918FCF003E80EE /* Tips-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A133C31C918FCF003E80EE /* Tips-icon.png */; };
 		F5A133C61C91937E003E80EE /* EasterEgg.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A133C51C91937E003E80EE /* EasterEgg.png */; };
-		F5A133CA1C919927003E80EE /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A133C91C919927003E80EE /* AboutViewController.swift */; };
-		F5A133CD1C91999D003E80EE /* EasterEggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A133CC1C91999D003E80EE /* EasterEggViewController.swift */; };
-		F5A133CF1C9199B4003E80EE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A133CE1C9199B4003E80EE /* DetailsViewController.swift */; };
-		F5A133D11C9199CA003E80EE /* MoreDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A133D01C9199CA003E80EE /* MoreDetailsViewController.swift */; };
-		F5A133D31C91A0D3003E80EE /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A133D21C91A0D3003E80EE /* GeneralViewController.swift */; };
+		F5A133D51C91A575003E80EE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A133D41C91A575003E80EE /* Default-568h@2x.png */; };
+		F5A133D91C91A637003E80EE /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A133D81C91A637003E80EE /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,11 +53,8 @@
 		F5798A161C89C5A80032A3F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5A133C31C918FCF003E80EE /* Tips-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tips-icon.png"; path = "../../Tips-icon.png"; sourceTree = "<group>"; };
 		F5A133C51C91937E003E80EE /* EasterEgg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EasterEgg.png; path = ../../EasterEgg.png; sourceTree = "<group>"; };
-		F5A133C91C919927003E80EE /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		F5A133CC1C91999D003E80EE /* EasterEggViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasterEggViewController.swift; sourceTree = "<group>"; };
-		F5A133CE1C9199B4003E80EE /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		F5A133D01C9199CA003E80EE /* MoreDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreDetailsViewController.swift; sourceTree = "<group>"; };
-		F5A133D21C91A0D3003E80EE /* GeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		F5A133D41C91A575003E80EE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F5A133D81C91A637003E80EE /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +85,7 @@
 		F57989E81C89C5A80032A3F7 = {
 			isa = PBXGroup;
 			children = (
+				F5A133D41C91A575003E80EE /* Default-568h@2x.png */,
 				F57989F31C89C5A80032A3F7 /* Practicum 2 */,
 				F5798A081C89C5A80032A3F7 /* Practicum 2Tests */,
 				F5798A131C89C5A80032A3F7 /* Practicum 2UITests */,
@@ -153,11 +148,7 @@
 		F5A133CB1C91992F003E80EE /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F5A133C91C919927003E80EE /* AboutViewController.swift */,
-				F5A133CC1C91999D003E80EE /* EasterEggViewController.swift */,
-				F5A133CE1C9199B4003E80EE /* DetailsViewController.swift */,
-				F5A133D01C9199CA003E80EE /* MoreDetailsViewController.swift */,
-				F5A133D21C91A0D3003E80EE /* GeneralViewController.swift */,
+				F5A133D81C91A637003E80EE /* AboutViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -271,6 +262,7 @@
 				F57989FC1C89C5A80032A3F7 /* Assets.xcassets in Resources */,
 				F5A133C41C918FCF003E80EE /* Tips-icon.png in Resources */,
 				F57989FA1C89C5A80032A3F7 /* Main.storyboard in Resources */,
+				F5A133D51C91A575003E80EE /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,13 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5A133D11C9199CA003E80EE /* MoreDetailsViewController.swift in Sources */,
-				F5A133D31C91A0D3003E80EE /* GeneralViewController.swift in Sources */,
-				F5A133CA1C919927003E80EE /* AboutViewController.swift in Sources */,
 				F57989F71C89C5A80032A3F7 /* ViewController.swift in Sources */,
-				F5A133CD1C91999D003E80EE /* EasterEggViewController.swift in Sources */,
+				F5A133D91C91A637003E80EE /* AboutViewController.swift in Sources */,
 				F57989F51C89C5A80032A3F7 /* AppDelegate.swift in Sources */,
-				F5A133CF1C9199B4003E80EE /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
