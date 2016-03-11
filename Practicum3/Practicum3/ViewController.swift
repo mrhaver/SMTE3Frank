@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Practicum 2
+//  Practicum3
 //
-//  Created by Fhict on 04/03/16.
+//  Created by Fhict on 11/03/16.
 //  Copyright © 2016 Frank Haver. All rights reserved.
 //
 

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F57989F01C89C5A80032A3F7"
-               BuildableName = "Practicum 2.app"
-               BlueprintName = "Practicum 2"
-               ReferencedContainer = "container:Practicum 2.xcodeproj">
+               BlueprintIdentifier = "F5BFC6A61C92FA8700B83FE4"
+               BuildableName = "Practicum3.app"
+               BlueprintName = "Practicum3"
+               ReferencedContainer = "container:Practicum3.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F5798A041C89C5A80032A3F7"
-               BuildableName = "Practicum 2Tests.xctest"
-               BlueprintName = "Practicum 2Tests"
-               ReferencedContainer = "container:Practicum 2.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F5798A0F1C89C5A80032A3F7"
-               BuildableName = "Practicum 2UITests.xctest"
-               BlueprintName = "Practicum 2UITests"
-               ReferencedContainer = "container:Practicum 2.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F57989F01C89C5A80032A3F7"
-            BuildableName = "Practicum 2.app"
-            BlueprintName = "Practicum 2"
-            ReferencedContainer = "container:Practicum 2.xcodeproj">
+            BlueprintIdentifier = "F5BFC6A61C92FA8700B83FE4"
+            BuildableName = "Practicum3.app"
+            BlueprintName = "Practicum3"
+            ReferencedContainer = "container:Practicum3.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F57989F01C89C5A80032A3F7"
-            BuildableName = "Practicum 2.app"
-            BlueprintName = "Practicum 2"
-            ReferencedContainer = "container:Practicum 2.xcodeproj">
+            BlueprintIdentifier = "F5BFC6A61C92FA8700B83FE4"
+            BuildableName = "Practicum3.app"
+            BlueprintName = "Practicum3"
+            ReferencedContainer = "container:Practicum3.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F57989F01C89C5A80032A3F7"
-            BuildableName = "Practicum 2.app"
-            BlueprintName = "Practicum 2"
-            ReferencedContainer = "container:Practicum 2.xcodeproj">
+            BlueprintIdentifier = "F5BFC6A61C92FA8700B83FE4"
+            BuildableName = "Practicum3.app"
+            BlueprintName = "Practicum3"
+            ReferencedContainer = "container:Practicum3.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

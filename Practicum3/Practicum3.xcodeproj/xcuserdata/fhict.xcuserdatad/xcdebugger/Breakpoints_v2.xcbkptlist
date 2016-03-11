@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Practicum3/TableViewController.swift"
+            timestampString = "479396883.859893"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "MainTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Practicum3.MainTableViewController.init (Practicum3.MainTableViewController.Type)(style : __C.UITableViewStyle) -&gt; Practicum3.MainTableViewController"
+                  moduleName = "Practicum3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fhict/Documents/Smart%20Mobile/SMTE3/SMTE3Frank/Practicum3/Practicum3/TableViewController.swift"
+                  timestampString = "479398595.899083"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Practicum3.MainTableViewController.init (Practicum3.MainTableViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Practicum3.MainTableViewController"
+                  moduleName = "Practicum3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fhict/Documents/Smart%20Mobile/SMTE3/SMTE3Frank/Practicum3/Practicum3/TableViewController.swift"
+                  timestampString = "479398595.899297"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Practicum3.MainTableViewController.init (Practicum3.MainTableViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Practicum3.MainTableViewController&gt;"
+                  moduleName = "Practicum3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fhict/Documents/Smart%20Mobile/SMTE3/SMTE3Frank/Practicum3/Practicum3/TableViewController.swift"
+                  timestampString = "479398595.899505"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Practicum3/TableViewController.swift"
+            timestampString = "479398594.888009"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "loadJsonData()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Practicum3/TableViewController.swift"
+            timestampString = "479399780.270813"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "parseJsonData(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

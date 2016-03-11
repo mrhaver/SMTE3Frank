@@ -18,7 +18,7 @@
 		F5A134021C91AB3B003E80EE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A134011C91AB3B003E80EE /* DetailsViewController.swift */; };
 		F5A134041C91AB4A003E80EE /* MoreDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A134031C91AB4A003E80EE /* MoreDetailsViewController.swift */; };
 		F5A134061C91AB5B003E80EE /* EasterEggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A134051C91AB5B003E80EE /* EasterEggViewController.swift */; };
-		F5A134081C91AE4F003E80EE /* EasterEgg.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A134071C91AE4F003E80EE /* EasterEgg.png */; };
+		F5BFC6C41C93017F00B83FE4 /* EasterEgg.png in Resources */ = {isa = PBXBuildFile; fileRef = F5BFC6C31C93017F00B83FE4 /* EasterEgg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		F5A134011C91AB3B003E80EE /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		F5A134031C91AB4A003E80EE /* MoreDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreDetailsViewController.swift; sourceTree = "<group>"; };
 		F5A134051C91AB5B003E80EE /* EasterEggViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasterEggViewController.swift; sourceTree = "<group>"; };
-		F5A134071C91AE4F003E80EE /* EasterEgg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EasterEgg.png; path = ../../EasterEgg.png; sourceTree = "<group>"; };
+		F5BFC6C31C93017F00B83FE4 /* EasterEgg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EasterEgg.png; path = ../../Images/EasterEgg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		F5A133FB1C91A91E003E80EE /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				F5A134071C91AE4F003E80EE /* EasterEgg.png */,
+				F5BFC6C31C93017F00B83FE4 /* EasterEgg.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 				F5A133F41C91A718003E80EE /* LaunchScreen.storyboard in Resources */,
 				F5A133F11C91A718003E80EE /* Assets.xcassets in Resources */,
 				F5A133EC1C91A718003E80EE /* Main.storyboard in Resources */,
-				F5A134081C91AE4F003E80EE /* EasterEgg.png in Resources */,
+				F5BFC6C41C93017F00B83FE4 /* EasterEgg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +328,7 @@
 				F5A133FA1C91A718003E80EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
